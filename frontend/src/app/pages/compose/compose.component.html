@@ -1,0 +1,30 @@
+<router-out></router-out>
+<div class="grid grid-cols-4 gap-6">
+    <div class="">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div class="col-span-3">
+        <app-card>
+            <card-title>
+                <h4 class="text-lg font-bold">Compose Messages</h4>
+            </card-title>
+            <card-body>
+                <form action="">
+                    <div class="form-group mb-3">
+                        <label for="">Email Address<span>*</span></label>
+                        <input type="email" name="" id="" placeholder="To" class="form-control">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="">Password<span>*</span></label>
+                        <input type="password" name="" id="" placeholder="Password" class="form-control">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="" class="form-label">Message <span>*</span></label>
+                        <textarea name="" id="" cols="30" class="form-control" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-blue">Send Message</button>
+                </form>
+            </card-body>
+        </app-card>
+    </div>
+</div>
